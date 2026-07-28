@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "Synesthetic Soundscapes boardroom reconstruction",
+    "currency": "USD",
+    "historical_period": "December 2025",
+    "reconstruction_date": "2026-07-28",
+    "disclosure": "The original repository documents scenario and sensitivity analysis, but does not contain Monte Carlo or regression code. This configuration reconstructs those methods for reproducibility."
+  },
+  "historical_scenarios": {
+    "sell_through": [0.45, 0.55, 0.70, 0.80, 0.90],
+    "revenue_millions": [14.5, 18.0, 25.294216, 30.0, 38.0],
+    "expense_used_for_reported_profit_millions": [14.2, 14.5, 18.872020, 20.0, 22.0],
+    "reported_profit_millions": [0.3, 3.5, 6.422196, 10.0, 16.0]
+  },
+  "base_case_reconciliation": {
+    "revenue_millions": 25.294216,
+    "expense_used_for_reported_profit_millions": 18.872020,
+    "displayed_total_expense_millions": 22.268984,
+    "reported_profit_millions": 6.422196,
+    "fully_loaded_profit_millions": 3.025232,
+    "unreconciled_gap_millions": 3.396964,
+    "gap_definition": "The gap equals the workbook's 18% contingency reserve."
+  },
+  "monte_carlo": {
+    "iterations": 100000,
+    "seed": 20251225,
+    "sell_through": {
+      "distribution": "triangular",
+      "low": 0.45,
+      "mode": 0.70,
+      "high": 0.90
+    },
+    "revenue_execution_factor": {
+      "distribution": "triangular",
+      "low": 0.92,
+      "mode": 1.00,
+      "high": 1.08
+    },
+    "expense_overrun_factor": {
+      "distribution": "triangular",
+      "low": 1.00,
+      "mode": 1.05,
+      "high": 1.18
+    },
+    "contingency_rate": {
+      "distribution": "triangular",
+      "low": 0.15,
+      "mode": 0.18,
+      "high": 0.22
+    },
+    "sponsorship_delta_millions": {
+      "distribution": "triangular",
+      "low": -0.60,
+      "mode": 0.00,
+      "high": 1.00
+    },
+    "headliner_cost_delta_millions": {
+      "distribution": "triangular",
+      "low": -0.50,
+      "mode": 0.00,
+      "high": 1.50
+    },
+    "weather_shock": {
+      "probability": 0.12,
+      "cost_millions": {
+        "distribution": "triangular",
+        "low": 0.25,
+        "mode": 0.75,
+        "high": 2.00
+      }
+    },
+    "permit_delay_shock": {
+      "probability": 0.10,
+      "cost_millions": {
+        "distribution": "triangular",
+        "low": 0.10,
+        "mode": 0.40,
+        "high": 1.00
+      }
+    }
+  }
+}
+

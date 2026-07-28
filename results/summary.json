@@ -1,0 +1,25 @@
+{
+  "iterations": 100000,
+  "seed": 20251225,
+  "profit_fully_loaded_millions": {
+    "mean": 1.5874591840809213,
+    "p05": -2.0246282055592033,
+    "p25": -0.171685602782919,
+    "median": 1.215145275876282,
+    "p75": 2.998093876748814,
+    "p95": 6.5036004790868125,
+    "minimum": -7.295004330477255,
+    "maximum": 13.361092034115284
+  },
+  "probability": {
+    "profit_above_zero": 0.72026,
+    "profit_at_least_3m": 0.24982,
+    "profit_at_least_5m": 0.10511,
+    "loss_of_at_least_2m": 0.05133
+  },
+  "definition_gap_millions": {
+    "mean": 3.2925018873122394,
+    "median": 3.3088656274266963
+  },
+  "regression_r_squared": 0.9296637641784593
+}
