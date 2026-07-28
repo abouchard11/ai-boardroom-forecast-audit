@@ -3,6 +3,8 @@
 > A case study in adversarial AI roles, financial-model reconciliation and the
 > source-of-truth problem hiding inside impressive agent output.
 
+> **Generate boldly. Validate cheaply. Kill ruthlessly. Scale what survives.**
+
 ## Context and authorship
 
 I built this work independently in **Houston, Texas**, as the solo founder and
