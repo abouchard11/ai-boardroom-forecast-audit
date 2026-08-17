@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the report below."
+title: "ai-boardroom-forecast-audit"
+abstract: >-
+  A reproducible case study in adversarial AI roles, Monte Carlo forecasting, and
+  source-of-truth controls.
+authors:
+  - family-names: "Bouchard"
+    given-names: "Alex"
+    email: "alex@midnightdev.dev"
+    affiliation: "MidnightDev"
+    website: "https://midnightdev.dev"
+repository-code: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
+url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
+license: MIT
+date-released: 2026-07-28
+keywords:
+  - "llm"
+  - "forecasting"
+  - "monte-carlo"
+  - "multi-agent"
+  - "case-study"
+preferred-citation:
+  type: report
+  title: "Adversarial AI Roles, Monte Carlo Forecasting, and Source-of-Truth Controls: A Reproducible Case Study"
+  authors:
+    - family-names: "Bouchard"
+      given-names: "Alex"
+      email: "alex@midnightdev.dev"
+      affiliation: "MidnightDev"
+      website: "https://midnightdev.dev"
+  institution:
+    name: "MidnightDev"
+  year: 2026
+  month: 7
+  url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
+  license: MIT
