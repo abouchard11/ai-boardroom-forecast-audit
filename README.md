@@ -224,3 +224,7 @@ analysis.
 Built by **Alex Bouchard**, an applied AI product engineer and solo founder at
 MidnightDev. This is a secondary portfolio case study about AI-assisted
 decision systems; my primary work is shipped consumer AI across web and iOS.
+
+## Rights
+
+**Proprietary — all rights reserved. No license is granted.** See [LICENSE](LICENSE).
