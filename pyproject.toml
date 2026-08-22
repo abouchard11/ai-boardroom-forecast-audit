@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A reproducible audit of a synthetic AI boardroom and festival forecast."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
+license = { text = "Proprietary - All Rights Reserved" }
 authors = [{ name = "Alex Bouchard" }]
 dependencies = [
   "matplotlib>=3.9,<4",
