@@ -1,5 +1,7 @@
 # The AI Boardroom That Killed a $65M Forecast
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23503122.svg)](https://doi.org/10.5281/zenodo.23503122)
+
 > A case study in adversarial AI roles, financial-model reconciliation and the
 > source-of-truth problem hiding inside impressive agent output.
 
