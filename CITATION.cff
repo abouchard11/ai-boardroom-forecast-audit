@@ -13,6 +13,7 @@ authors:
     orcid: "https://orcid.org/0009-0003-0911-9681"
 repository-code: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
 url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
+license: CC-BY-4.0
 date-released: 2026-07-28
 keywords:
   - "llm"
@@ -35,3 +36,4 @@ preferred-citation:
   year: 2026
   month: 7
   url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
+  license: CC-BY-4.0
