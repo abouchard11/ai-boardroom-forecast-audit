@@ -15,6 +15,11 @@ repository-code: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
 url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
 license: CC-BY-4.0
 version: "0.1.0"
+doi: "10.5281/zenodo.23503122"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23503122"
+    description: "Concept DOI: resolves to the latest archived release on Zenodo"
 date-released: 2026-07-28
 keywords:
   - "llm"
@@ -38,3 +43,4 @@ preferred-citation:
   month: 7
   url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
   license: CC-BY-4.0
+  doi: "10.5281/zenodo.23503122"
