@@ -14,6 +14,7 @@ authors:
 repository-code: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
 url: "https://github.com/abouchard11/ai-boardroom-forecast-audit"
 license: CC-BY-4.0
+version: "0.1.0"
 date-released: 2026-07-28
 keywords:
   - "llm"
